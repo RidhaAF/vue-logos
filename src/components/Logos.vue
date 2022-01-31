@@ -1,8 +1,14 @@
 <template>
   <div class="logos-wrapper">
-    <h2>Find Best Logo</h2>
+    <h2 class="title-header">Find Best Logo</h2>
     <div class="item-logos">
-      <img src="" alt="" />
+      <img src="../assets/facebook.png" alt="Facebook" class="logo" />
+    </div>
+    <div class="item-logos">
+      <img src="../assets/instagram.png" alt="Instagram" class="logo" />
+    </div>
+    <div class="item-logos">
+      <img src="../assets/line.png" alt="Line" class="logo" />
     </div>
   </div>
 </template>
@@ -14,8 +20,9 @@ export default {
 </script>
 
 <style scoped>
-h2 {
+.title-header {
   color: #41b883;
+  margin-bottom: 80px;
 }
 
 .logos-wrapper {
@@ -30,6 +37,10 @@ h2 {
   margin-bottom: 20px;
   width: 150px;
   height: 150px;
-  background: red;
+}
+
+.item-logos .logo {
+  width: 150px;
+  height: 150px;
 }
 </style>
